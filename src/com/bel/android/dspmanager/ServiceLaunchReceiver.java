@@ -12,8 +12,8 @@ import android.content.Intent;
  * @author alankila
  */
 public class ServiceLaunchReceiver extends BroadcastReceiver {
-	@Override
-	public void onReceive(Context context, Intent intent) {
-		context.startService(new Intent(HeadsetService.NAME));
-	}
+    @Override
+    public void onReceive(Context context, Intent intent) {
+        context.startService(new Intent(HeadsetService.NAME));
+    }
 }
